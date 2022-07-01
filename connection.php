@@ -11,6 +11,6 @@ if($conn)
     echo "Data submitted successfully";
 }
 else{
-    echo 'Error occured';
+    echo 'Error occured'. mysqli_error($conn);
 }
 ?>
