@@ -18,29 +18,59 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="card-header bg-dark text-white text-center">
-                        <span>Students</span>
+                        <span>Top Content</span>
                     </div>
                     <div class="card-body">
-                        <div class="table table-striped-columns table-hover table-responsive">
-                            <thead>
-                                <tr>
-                                    <th>NO.</th>
-                                    <th>Full Name</th>
-                                    <th>Phone Number</th>
-                                    <th>Email</th>
-                                    <th>Gender</th>
-                                    <th>Course</th>
-                                    <th>Enrolled On</th>
-                                    <th></th>
-
-                                </tr>
-                            </thead>
-
-                        </div>
+                        
                     </div>
                     <div class="card-footer"></div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card-header bg-dark text-white text-center">
+                        <span>Students</span>
+                    </div>
+                    <div class="card-body">
+                        <span><i class="fa fa-group fa-3x"></i></span>
+                        <span class="float-end">00</span>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card-header bg-dark text-white text-center">
+                        <span>Available Courses</span>
+                    </div>
+                    <div class="card-body"></div>
+                    <span><i class="fa fa-group fa-3x"></i></span>
+                        <span class="float-end">00</span>
+                    <div class="card-footer"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card-header bg-dark text-white text-center">
+                        <span>Campuses</span>
+                    </div>
+                    <div class="card-body"></div>
+                    <span><i class="fa fa-group fa-3x"></i></span>
+                        <span class="float-end">00</span>
+                    <div class="card-footer"></div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card-header bg-dark text-white text-center">
+                        <span>Users</span>
+                    </div>
+                    <div class="card-body"></div>
+                    <span><i class="fa fa-group fa-3x"></i></span>
+                        <span class="float-end">00</span>
+                    <div class="card-footer"></div>
+                 </div>
+            
+                <div class="col-lg-12">
+                    <div class="card-header bg-dark text-white text-center">
+                        <span>Student Analysis</span>
+                    </div>
+                </div>
+            </div>  
             
         
 
