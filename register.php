@@ -30,36 +30,40 @@ require_once('processRegister.php')
                     <form action="" method="POST" class="form-group" autocomplete="off">
                         <div class="justify-content-center align-items-center">
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mb-3">
                                     <div class="form-group">
                                         <label class="form-group">Username:</label>
                                         <input type="text" name="username" class="form-control" placeholder="enter your username">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mb-3">
                                     <div class="form-group">
                                         <label class="form-group">Email:</label>
                                         <input type="email" name="email" class="form-control" placeholder="enter your email address">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mb-3">
                                     <div class="form-group">
                                         <label class="form-group">Password:</label>
                                         <input type="password" name="password" id="password" class="form-control" placeholder="enter your password">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mb-3">
                                     <div class="form-group">
                                         <label class="form-group">Confirm Password:</label>
                                         <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="enter your password">
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 mb-3">
                                     <div class="form-group">
                                         <input type="submit" name="signUp" class="btn btn-primary btn-sm">
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <p>Have an account <a class="text-decoration-none"href="register.php">sign up?</a></p>
+                               
+                            </div> 
                         </div>
                     </form>
                 </div>

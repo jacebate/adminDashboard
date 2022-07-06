@@ -16,7 +16,7 @@
     <div class="main-content">
     <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-lg-12">
                     <div class="card-header bg-dark text-white text-center">
                         <span>Top Content</span>
                     </div>
@@ -77,9 +77,7 @@
     </div>
     
 
+<?php require_once("includes/scripts.php")?>
 
-
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>

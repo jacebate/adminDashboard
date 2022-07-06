@@ -47,7 +47,7 @@ $sql= mysqli_query($conn, "SELECT *FROM enrollment");
                                         <td><?php echo $fetchEnrollmentRecord['course']?></td>
                                         <td><?php echo $fetchEnrollmentRecord['created_at']?></td>
                                         <td>
-                                            <a href="#" class="btn btn-primary btn-sm">
+                                            <a href="edit-enrollment.php?id=<?php echo $fetchEnrollmentRecord['no'] ?>" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-edit"></i>
                                             </a>
                                             
