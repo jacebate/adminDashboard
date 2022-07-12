@@ -4,12 +4,16 @@ require_once('connection.php');
 $queryStudent= mysqli_query($conn, "SELECT * FROM enrollment WHERE no='".$_GET['id']." '");
 while($fetchStudent= mysqli_fetch_array($queryStudent))
 {
+    $id = $fetchStudent['no'];
     $fullname=$fetchStudent['fullname'];
     $phonenumber=$fetchStudent['phonenumber'];
     $email=$fetchStudent['email'];
     $gender=$fetchStudent['gender'];
     $course=$fetchStudent['course'];
 }
+require_once('logics/processUpdate.php');
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,9 +30,10 @@ while($fetchStudent= mysqli_fetch_array($queryStudent))
                     <div class="card">
                         <div class="card-header bg-dark text-center text-white">
                             <h4>Edit student</h4>
+                            <?php echo $message ?>
                         </div>
                         <div class="card-body">
-                        <form action="students.php" method="POST">
+                        <form action="edit-enrollment.php?id=<?php echo $id?>" method="POST">
                             <div class="row">
                                 <div class="mb-3 col-lg-6">
                                     <label for="fullname" class="form-label">Full Name</label>
@@ -92,7 +97,7 @@ while($fetchStudent= mysqli_fetch_array($queryStudent))
                                 </div>
                             </div>
                             <div class="col-12 mb-3">
-                                <button type="submit" name="submit" class="btn btn-primary">submit application</button>
+                                <button type="submit" name="update" class="btn btn-primary">Update application</button>
                             </div>
                         </form>
                         </div>
