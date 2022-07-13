@@ -51,11 +51,11 @@ $sql= mysqli_query($conn, "SELECT *FROM enrollment");
                                                 <i class="fa fa-edit"></i>
                                             </a>
                                             
-                                            <a href="#" class="btn btn-info btn-sm">
+                                            <a href="view-enrollment.php?id=<?php echo $fetchEnrollmentRecord['no'] ?>" class="btn btn-info btn-sm">
                                                 <i class="fa fa-eye"></i>
                                             </a>
                                             
-                                            <a href="#" class="btn btn-danger btn-sm">
+                                            <a href="delete-enrollment.php?id=<?php echo $fetchEnrollmentRecord['no'] ?>" class="btn btn-danger btn-sm">
                                                 <i class="fa fa-trash"></i>
                                             </a>
                                         </td>
