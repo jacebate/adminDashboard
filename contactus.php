@@ -25,6 +25,7 @@ $sqlContactInfo= mysqli_query($conn, "SELECT *FROM contactus");
                                     <th scope="col">Last Name</th>
                                     <th scope="col">Email Address</th>
                                     <th scope="col">Phone Number</th>
+                                    <th scope="col">Message</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -34,6 +35,7 @@ $sqlContactInfo= mysqli_query($conn, "SELECT *FROM contactus");
                                     <td><?php echo $fetchContactRecords['lastname']?></td>
                                     <td><?php echo $fetchContactRecords['email']?></td>
                                     <td><?php echo $fetchContactRecords['phonenumber']?></td>
+                                    <td><?php echo $fetchContactRecords['message']?></td>
                                 </tr>
                                 <?php } ?>
                             </tbody>
