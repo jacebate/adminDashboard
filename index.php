@@ -1,4 +1,5 @@
 <?php
+
 require_once('connection.php');
 // counting total no of students
 $queryEnrolledStudents = mysqli_query($conn, "SELECT * FROM enrollment");

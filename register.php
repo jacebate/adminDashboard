@@ -26,7 +26,7 @@ require_once('processRegister.php')
             <img src="zalego.jfif" width="100" height="100" alt="logo" class="mx-auto d-block rounded-circle">
                 <span><?php echo $msg ?></span>
             <div class="card">
-                <div class="card-body">
+            <div class="card-body">
                     <form action="" method="POST" class="form-group" autocomplete="off">
                         <div class="justify-content-center align-items-center">
                             <div class="row">
@@ -61,7 +61,7 @@ require_once('processRegister.php')
                                 </div>
                             </div>
                             <div class="row">
-                                <p>Have an account <a class="text-decoration-none"href="register.php">sign up?</a></p>
+                                <p>Already have an account <a class="text-decoration-none"href="login.php">sign in?</a></p>
                                
                             </div> 
                         </div>

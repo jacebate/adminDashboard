@@ -19,3 +19,15 @@
                 </thead>
 
             </div>
+
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item">Gender: <span class="float-end badge bg-secondary"><?php echo $gender?></span></li>
+                    <li class="list-group-item">Course: <span class="float-end badge bg-info"><?php echo $course?></span></li>
+                    <li class="list-group-item">Enrolled on: <span class="float-end badge bg-danger"><?php echo $created_at?></span></li>
+                </ul>
+            </div>
+            <div class="card-footer"></div>
+        </div>
+       
+
