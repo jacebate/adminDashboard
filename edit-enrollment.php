@@ -1,5 +1,6 @@
 <?php
 require_once('connection.php');
+$message="";
 
 $queryStudent= mysqli_query($conn, "SELECT * FROM enrollment WHERE no='".$_GET['id']." '");
 while($fetchStudent= mysqli_fetch_array($queryStudent))
