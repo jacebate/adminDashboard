@@ -23,6 +23,10 @@ $sql= mysqli_query($conn, "SELECT *FROM enrollment");
                             <span>Students</span>
                         </div>
                         <div class="card-body">
+                            <a href="addStudent.php">
+                                <i class="fa fa-plus btn btn-dark"> Student</i>
+                            </a>
+                            
                             <table class="table table-hover table-bordered table-stripped table-responsiove{-sm|-md|-lg|-x1}" style="font-size:12px">
                             <thead>
                                 <tr>

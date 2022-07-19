@@ -101,7 +101,10 @@ require_once('logics/processUpdate.php');
                                 <button type="submit" name="update" class="btn btn-primary">Update application</button>
                             </div>
                         </form>
-                        </div>
+                        <a href="students.php">
+                            <i class="fa fa-arrow-left btn btn-info btn-sm">back</i> 
+                        </a>
+                       
                     </div>
                 </div>
             </div>

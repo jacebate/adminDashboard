@@ -40,14 +40,14 @@ $sqlContactInfo= mysqli_query($conn, "SELECT *FROM contactus");
                                     <td><?php echo $fetchContactRecords['phonenumber']?></td>
                                     <td><?php echo $fetchContactRecords['message']?></td>
                                     <td>
-                                        <a href="edit-contactus.php?id=<?php echo $fetchContactRecords['no']?>">
+                                        <a href="edit-contactus.php?id=<?php echo $fetchContactRecords['no']?>" class="btn btn-primary btn-sm">
                                             <i class="fa fa-edit"></i>
                                         </a>
-                                        <a href="view-contactus.php">
+                                        <a href="view-contactus.php?id=<?php echo $fetchContactRecords['no']?>" class="btn btn-info btn-sm">
                                             <i class="fa fa-eye"></i>
                                         </a>
-                                        <a href="delete-contactus.php">
-                                            <i class="fa fa-trash"></i>
+                                        <a href="delete-contactus.php?id=<?php echo $fetchContactRecords['no']?>" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-trash "></i>
                                         </a>
                                     </td>
                                 </tr>

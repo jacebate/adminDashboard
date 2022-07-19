@@ -54,7 +54,11 @@ while($fetchStudent= mysqli_fetch_array($sqlFetchEnrolledStudent))
                                         <li class="list-group-item">Enrolled on: <span class="float-end badge bg-danger"><?php echo $created_at?></span></li>
                                         </ul>
                                     </div>
-                                    <div class="card-footer"></div>
+                                    <div class="card-footer">
+                                        <a href="students.php">
+                                            <i class="fa fa-arrow-left btn btn-info btn-sm">back</i> 
+                                        </a>
+                                    </div>
                                 </div>
                         </div>
                     </div>
